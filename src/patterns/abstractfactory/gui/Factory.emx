@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect Designer 9.6-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JavaTransformation50="http:///schemas/JavaTransformation50/_znHmkE3YEd-tPpJR7OP4Bg/34" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/JavaTransformation50/_znHmkE3YEd-tPpJR7OP4Bg/34 pathmap://TRANSFORM_JAVA5_PROFILES/JavaTransformProfile.epx#_znahgE3YEd-tPpJR7OP4Bg?JavaTransformation5.0/JavaTransformation50?">
+  <uml:Package xmi:id="_1GYaAKACEeiW4LohhfN62Q" name="Factory">
+    <packageImport xmi:id="_1Gu_UKACEeiW4LohhfN62Q">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:id="_1Gu_UaACEeiW4LohhfN62Q">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1N3iEKACEeiW4LohhfN62Q" name="patterns">
+      <packagedElement xmi:type="uml:Package" xmi:id="_1N7McKACEeiW4LohhfN62Q" name="abstractfactory">
+        <packagedElement xmi:type="uml:Package" xmi:id="_1N7McaACEeiW4LohhfN62Q" name="gui">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_1N7McqACEeiW4LohhfN62Q" name="GUIFactory">
+            <ownedOperation xmi:id="_1N_d4KACEeiW4LohhfN62Q" name="createButton" visibility="package">
+              <ownedParameter xmi:id="_1N_d4aACEeiW4LohhfN62Q" name="ReturnParameter" type="_1N-20KACEeiW4LohhfN62Q" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_1OGLkKACEeiW4LohhfN62Q" name="createLabel" visibility="package">
+              <ownedParameter xmi:id="_1OGLkaACEeiW4LohhfN62Q" name="ReturnParameter" type="_1N-PwqACEeiW4LohhfN62Q" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_1N9BoKACEeiW4LohhfN62Q" name="WinLabel" clientDependency="_1OHZsKACEeiW4LohhfN62Q">
+            <interfaceRealization xmi:id="_1OHZsKACEeiW4LohhfN62Q" supplier="_1N-PwqACEeiW4LohhfN62Q" client="_1N9BoKACEeiW4LohhfN62Q" contract="_1N-PwqACEeiW4LohhfN62Q"/>
+            <ownedOperation xmi:id="_1OGyoKACEeiW4LohhfN62Q" name="paint" visibility="public"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_1N9BoaACEeiW4LohhfN62Q" name="OSXFactory" clientDependency="_1OIn0aACEeiW4LohhfN62Q">
+            <interfaceRealization xmi:id="_1OIn0aACEeiW4LohhfN62Q" supplier="_1N7McqACEeiW4LohhfN62Q" client="_1N9BoaACEeiW4LohhfN62Q" contract="_1N7McqACEeiW4LohhfN62Q"/>
+            <ownedOperation xmi:id="_1OIAwKACEeiW4LohhfN62Q" name="createButton" visibility="public">
+              <ownedParameter xmi:id="_1OIAwaACEeiW4LohhfN62Q" name="ReturnParameter" type="_1N-20KACEeiW4LohhfN62Q" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_1OIAwqACEeiW4LohhfN62Q" name="createLabel" visibility="public">
+              <ownedParameter xmi:id="_1OIn0KACEeiW4LohhfN62Q" name="ReturnParameter" type="_1N-PwqACEeiW4LohhfN62Q" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_1N9osKACEeiW4LohhfN62Q" name="Application">
+            <ownedOperation xmi:id="_1OJO4KACEeiW4LohhfN62Q" name="Application" visibility="public">
+              <ownedParameter xmi:id="_1OJ18KACEeiW4LohhfN62Q" name="factory" type="_1N7McqACEeiW4LohhfN62Q"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_1N9osaACEeiW4LohhfN62Q" name="OSXButton" clientDependency="_1OKdAKACEeiW4LohhfN62Q">
+            <interfaceRealization xmi:id="_1OKdAKACEeiW4LohhfN62Q" supplier="_1N-20KACEeiW4LohhfN62Q" client="_1N9osaACEeiW4LohhfN62Q" contract="_1N-20KACEeiW4LohhfN62Q"/>
+            <ownedOperation xmi:id="_1OJ18aACEeiW4LohhfN62Q" name="paint" visibility="public"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_1N9osqACEeiW4LohhfN62Q" name="OSXLabel" clientDependency="_1OLEEKACEeiW4LohhfN62Q">
+            <interfaceRealization xmi:id="_1OLEEKACEeiW4LohhfN62Q" supplier="_1N-PwqACEeiW4LohhfN62Q" client="_1N9osqACEeiW4LohhfN62Q" contract="_1N-PwqACEeiW4LohhfN62Q"/>
+            <ownedOperation xmi:id="_1OKdAaACEeiW4LohhfN62Q" name="paint" visibility="public"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_1N-PwKACEeiW4LohhfN62Q" name="WinButton" clientDependency="_1OMSMKACEeiW4LohhfN62Q">
+            <interfaceRealization xmi:id="_1OMSMKACEeiW4LohhfN62Q" supplier="_1N-20KACEeiW4LohhfN62Q" client="_1N-PwKACEeiW4LohhfN62Q" contract="_1N-20KACEeiW4LohhfN62Q"/>
+            <ownedOperation xmi:id="_1OLEEaACEeiW4LohhfN62Q" name="paint" visibility="public"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_1N-PwaACEeiW4LohhfN62Q" name="ApplicationRunner">
+            <ownedOperation xmi:id="_1OMSMaACEeiW4LohhfN62Q" name="main" visibility="public" isStatic="true">
+              <ownedParameter xmi:id="_1OM5QKACEeiW4LohhfN62Q" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1OS_4KACEeiW4LohhfN62Q" value="*"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1OTm8KACEeiW4LohhfN62Q"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_1OZGgaACEeiW4LohhfN62Q" name="createOsSpecificFactory" visibility="public" isStatic="true">
+              <ownedParameter xmi:id="_1OZtkKACEeiW4LohhfN62Q" name="ReturnParameter" type="_1N7McqACEeiW4LohhfN62Q" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_1N-PwqACEeiW4LohhfN62Q" name="Label">
+            <ownedOperation xmi:id="_1OaUoKACEeiW4LohhfN62Q" name="paint" visibility="package"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_1N-20KACEeiW4LohhfN62Q" name="Button">
+            <ownedOperation xmi:id="_1OaUoaACEeiW4LohhfN62Q" name="paint" visibility="package"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_1N-20aACEeiW4LohhfN62Q" name="WinFactory" clientDependency="_1OcJ0KACEeiW4LohhfN62Q">
+            <interfaceRealization xmi:id="_1OcJ0KACEeiW4LohhfN62Q" supplier="_1N7McqACEeiW4LohhfN62Q" client="_1N-20aACEeiW4LohhfN62Q" contract="_1N7McqACEeiW4LohhfN62Q"/>
+            <ownedOperation xmi:id="_1Oa7sKACEeiW4LohhfN62Q" name="createButton" visibility="public">
+              <ownedParameter xmi:id="_1Oa7saACEeiW4LohhfN62Q" name="ReturnParameter" type="_1N-20KACEeiW4LohhfN62Q" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_1ObiwKACEeiW4LohhfN62Q" name="createLabel" visibility="public">
+              <ownedParameter xmi:id="_1ObiwaACEeiW4LohhfN62Q" name="ReturnParameter" type="_1N-PwqACEeiW4LohhfN62Q" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_1GkAMKACEeiW4LohhfN62Q">
+      <eAnnotations xmi:id="_1GlOUKACEeiW4LohhfN62Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_1GlOUaACEeiW4LohhfN62Q">
+      <eAnnotations xmi:id="_1GlOUqACEeiW4LohhfN62Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_1GlOU6ACEeiW4LohhfN62Q">
+      <eAnnotations xmi:id="_1Gl1YKACEeiW4LohhfN62Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_4OVBUD0TEeKt-L0gyEptgQ?Deployment/Deployment?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_1OXRUKACEeiW4LohhfN62Q">
+      <eAnnotations xmi:id="_1OXRUaACEeiW4LohhfN62Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://TRANSFORM_JAVA5_PROFILES/JavaTransformProfile.epx#_znahgE3YEd-tPpJR7OP4Bg?JavaTransformation5.0/JavaTransformation50?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://TRANSFORM_JAVA5_PROFILES/JavaTransformProfile.epx#_TQfqgOcaEdi4LptNXGi2fQ?JavaTransformation5.0?"/>
+    </profileApplication>
+  </uml:Package>
+  <JavaTransformation50:JavaArray xmi:id="_1OZGgKACEeiW4LohhfN62Q" base_TypedElement="_1OM5QKACEeiW4LohhfN62Q"/>
+</xmi:XMI>
