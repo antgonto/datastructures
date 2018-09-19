@@ -1,4 +1,4 @@
-package patterns.adapter;
+package patterns.adapter.drawings;
 
 public class RectangleAdapter implements Shape {
     private Rectangle adaptee;

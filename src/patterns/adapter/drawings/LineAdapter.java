@@ -1,4 +1,4 @@
-package patterns.adapter;
+package patterns.adapter.drawings;
 
 public class LineAdapter implements Shape {
     private Line adaptee;

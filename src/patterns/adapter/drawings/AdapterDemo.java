@@ -1,4 +1,4 @@
-package patterns.adapter;
+package patterns.adapter.drawings;
 
 public class AdapterDemo {
     public static void main(String[] args) {
