@@ -10,11 +10,10 @@ public class ShellSort {
 
     public int sort(int arr[]){
         int n = arr.length;
-
         for (int gap = n/2; gap > 0; gap /= 2){
             for (int i = gap; i < n; i += 1){
                 int temp = arr[i];
-                int j = 0;
+                 int j = 0;
                 for (j = i; j >= gap && arr[j - gap] > temp; j -= gap)
                     arr[j] = arr[j - gap];
                 arr[j] = temp;
@@ -24,7 +23,7 @@ public class ShellSort {
     }
 
     public static void main(String args[]){
-        int arr[] = {12, 34, 54, 2, 3};
+        int arr[] = {14, 7, 3, 12, 9, 11, 6, 2};
         System.out.println("Antes de ordenar");
         printArray(arr);
 

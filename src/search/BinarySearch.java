@@ -24,7 +24,7 @@ public class BinarySearch {
 
     public static void main(String[] args){
         BinarySearch bs = new BinarySearch();
-        int key = 4;
+        int key = 99;
         System.out.println("El número " + key + " se encuentra en el array: " + bs.search(key));
     }
 }
