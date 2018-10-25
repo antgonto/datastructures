@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62b39d04-8c1e-4708-999f-f23d01a95adb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enlaces.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linear/DoubleEndedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/DoubleEndedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linear/DoubleLinked/DoubleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/DoubleLinked/DoubleNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linear/DoubleLinked/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/DoubleLinked/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linear/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linear/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linear/QueueArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/QueueArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linear/QueueList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/QueueList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linear/StackList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/StackList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linear/circular/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/circular/CircularLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linear/circular/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/circular/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linear/simple/DoubleEndedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/simple/DoubleEndedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linear/simple/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/simple/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linear/simple/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/simple/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trees/avl/AVLNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/avl/AVLNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trees/avl/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/avl/AVLTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,14 +48,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/trees/b/TestTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
+            <state relative-caret-position="4700">
+              <caret line="188" selection-start-line="188" selection-end-line="188" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Enlaces.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Enlaces.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -168,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/trees/b/BTree.java" />
         <option value="$PROJECT_DIR$/src/trees/b/Test.java" />
         <option value="$PROJECT_DIR$/src/trees/b/TestTree.java" />
+        <option value="$PROJECT_DIR$/src/Enlaces.txt" />
       </list>
     </option>
   </component>
@@ -181,10 +175,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="x" value="-1330" />
+    <option name="y" value="60" />
+    <option name="width" value="1366" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -218,7 +212,12 @@
             <path>
               <item name="datastructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -406,7 +405,7 @@
       <workItem from="1539717799927" duration="7817000" />
       <workItem from="1539892343443" duration="602000" />
       <workItem from="1540321683940" duration="4333000" />
-      <workItem from="1540476235697" duration="7707000" />
+      <workItem from="1540476235697" duration="8494000" />
     </task>
     <task id="LOCAL-00001" summary="Initial setting.">
       <created>1537387111928</created>
@@ -429,11 +428,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539743363215</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Actualización B Tree.">
+      <created>1540498660025</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1540498660026</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50948000" />
+    <option name="totallyTimeSpent" value="51735000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -446,6 +452,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49676377" weight="0.32781065" />
@@ -462,7 +469,7 @@
       <window_info id="Designer" order="3" />
       <window_info active="true" content_ui="combo" x="1387" y="381" width="263" height="274" id="Project" order="0" sideWeight="0.5704584" visible="true" weight="0.20953101" />
       <window_info anchor="right" id="Database" order="5" weight="0.32928804" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.39898133" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.36332768" />
       <window_info id="Structure" order="1" sideWeight="0.21383648" side_tool="true" weight="0.20196672" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -490,7 +497,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial setting." />
     <MESSAGE value="Actualización AVL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualización AVL" />
+    <MESSAGE value="Actualización B Tree." />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualización B Tree." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -625,13 +633,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/trees/avl/AVLNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/trees/avl/AVLTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2200">
@@ -1051,11 +1052,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/trees/b/TestTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
+        <state relative-caret-position="4700">
+          <caret line="188" selection-start-line="188" selection-end-line="188" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Enlaces.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1076,7 +1084,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
