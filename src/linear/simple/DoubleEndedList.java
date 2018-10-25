@@ -1,8 +1,8 @@
 package linear.simple;
 
 public class DoubleEndedList {
-    private Node head;
-    private Node last;
+    private BNode head;
+    private BNode last;
     private int size;
 
     public DoubleEndedList() {
@@ -19,28 +19,28 @@ public class DoubleEndedList {
         return this.size;
     }
     public void insertFirst(Object data) {
-        Node newNode = new Node(data);
+        BNode newBNode = new BNode(data);
         if (this.isEmpty()) {
-            this.head = this.last = newNode;
+            this.head = this.last = newBNode;
         } else {
-            newNode.setNext(this.head);
-            this.head = newNode;
+            newBNode.setNext(this.head);
+            this.head = newBNode;
         }
         this.size++;
     }
     public void insertLast(Object data) {
-        Node newNode = new Node(data);
+        BNode newBNode = new BNode(data);
         if (this.isEmpty()) {
-            this.head = this.last = newNode;
+            this.head = this.last = newBNode;
         } else {
-            this.last.setNext(newNode);
-            this.last = newNode;
+            this.last.setNext(newBNode);
+            this.last = newBNode;
         }
         this.size++;
     }
 
     public void displayList() {
-        Node current = this.head;
+        BNode current = this.head;
         while (current != null) {
             System.out.println(current.getData());
             current = current.getNext();

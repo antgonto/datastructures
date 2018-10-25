@@ -1,20 +1,20 @@
 package linear;
 
 
-import linear.simple.Node;
+import linear.simple.BNode;
 
 public class QueueList<T> {
-        private Node<T> head = null;
-        private Node<T> tail = null;
+        private BNode<T> head = null;
+        private BNode<T> tail = null;
 
         public void enqueue(T item) {
-            Node newNode = new Node(item);
+            BNode newBNode = new BNode(item);
             if (isEmpty()) {
-                head = newNode;
+                head = newBNode;
             } else {
-                tail.next = newNode;
+                tail.next = newBNode;
             }
-            tail = newNode;
+            tail = newBNode;
         }
 
         public T dequeue() {
@@ -38,7 +38,7 @@ public class QueueList<T> {
 
         public int size() {
             int count = 0;
-            for (Node node = head; node != null; node = node.next) {
+            for (BNode BNode = head; BNode != null; BNode = BNode.next) {
                 count++;
             }
             return count;

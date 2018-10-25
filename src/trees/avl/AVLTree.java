@@ -47,7 +47,7 @@ public class AVLTree {
         return y;
     }
 
-    // Get Balance factor of node N
+    // Get Balance factor of BNode N
     public int getBalance(AVLNode node) {
         if (node == null)
             return 0;
@@ -68,21 +68,21 @@ public class AVLTree {
         else // Duplicate keys not allowed
             return node;
 
-        /* 2. Update height of this ancestor node */
+        /* 2. Update height of this ancestor BNode */
         node.setHeight(1 + max(height(node.getLeft()), height(node.getRight())));
 
 		/* 3. Get the balance factor of this ancestor
-			node to check whether this node became
+			BNode to check whether this BNode became
 			unbalanced */
         int balance = getBalance(node);
 
-        // If this node becomes unbalanced, then there
+        // If this BNode becomes unbalanced, then there
         // are 4 cases Left Left Case
-        if (balance > 1 && key <  node.getLeft().getKey())
+        if (balance > 1 && key < node.getLeft().getKey())
             return rightRotate(node);
 
         // Right Right Case
-        if (balance < -1 && key >  node.getRight().getKey())
+        if (balance < -1 && key > node.getRight().getKey())
             return leftRotate(node);
 
         // Left Right Case
@@ -97,13 +97,13 @@ public class AVLTree {
             return leftRotate(node);
         }
 
-        /* return the (unchanged) node pointer */
+        /* return the (unchanged) BNode pointer */
         return node;
     }
 
     // A utility function to print preorder traversal
     // of the tree.
-    // The function also prints height of every node
+    // The function also prints height of every BNode
     void preOrder(AVLNode node) {
         if (node != null) {
             System.out.print(node.getKey() + " ");

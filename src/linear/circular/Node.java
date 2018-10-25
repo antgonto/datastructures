@@ -1,11 +1,11 @@
 package linear.circular;
 
-public class Node<T> {
+public class BNode<T> {
 
     T item;
-    Node<T> next;
+    BNode<T> next;
 
-    public Node(T item) {
+    public BNode(T item) {
         this.item = item;
     }
 

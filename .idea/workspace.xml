@@ -5,14 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62b39d04-8c1e-4708-999f-f23d01a95adb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/avl/AVLNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/avl/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_10.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/search/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/ShellSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trees/BinaryTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trees/TreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datastructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linear/DoubleEndedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/DoubleEndedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linear/DoubleLinked/DoubleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/DoubleLinked/DoubleNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linear/DoubleLinked/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/DoubleLinked/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linear/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linear/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linear/QueueArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/QueueArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linear/QueueList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/QueueList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linear/StackList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/StackList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linear/circular/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/circular/CircularLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linear/circular/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/circular/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linear/simple/DoubleEndedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/simple/DoubleEndedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linear/simple/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/simple/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linear/simple/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linear/simple/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trees/avl/AVLNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/avl/AVLNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trees/avl/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/avl/AVLTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,44 +34,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BinarySearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/search/BinarySearch.java">
+      <file leaf-file-name="BTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/trees/b/BTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectionSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sort/SelectionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/trees/binary/BinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-800">
-              <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+            <state relative-caret-position="3840">
+              <caret line="312" column="35" selection-start-line="312" selection-start-column="35" selection-end-line="312" selection-end-column="35" />
               <folding>
-                <element signature="e#1894#1895#0" expanded="true" />
-                <element signature="e#1953#1954#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2525#2526#0" expanded="true" />
+                <element signature="e#2552#2553#0" expanded="true" />
+                <element signature="e#2737#2767#1" expanded="true" />
+                <element signature="e#4856#4886#1" expanded="true" />
+                <element signature="e#7787#7788#0" expanded="true" />
+                <element signature="e#7820#7821#0" expanded="true" />
+                <element signature="e#7971#7972#0" expanded="true" />
+                <element signature="e#8024#8025#0" expanded="true" />
+                <element signature="e#8104#8105#0" expanded="true" />
+                <element signature="e#8161#8162#0" expanded="true" />
+                <element signature="e#8209#8210#0" expanded="true" />
+                <element signature="e#8266#8267#0" expanded="true" />
+                <element signature="e#8316#8317#0" expanded="true" />
+                <element signature="e#8373#8374#0" expanded="true" />
+                <element signature="e#9530#9531#0" expanded="true" />
+                <element signature="e#9581#9582#0" expanded="true" />
+                <element signature="e#10121#10122#0" expanded="true" />
+                <element signature="e#10186#10187#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AVLTree.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/trees/avl/AVLTree.java">
+      <file leaf-file-name="TestTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/trees/b/TestTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="95" column="36" lean-forward="true" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
+            <state relative-caret-position="122">
+              <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
               <folding>
-                <element signature="method#height#0;class#AVLTree#0" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,13 +79,34 @@
       <file leaf-file-name="AVLNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/trees/avl/AVLNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="510">
+              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AVLTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/trees/avl/AVLTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="134" column="51" selection-start-line="134" selection-start-column="51" selection-end-line="134" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/trees/b/BNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="50" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="50" />
               <folding>
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#564#594#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1006#1007#0" expanded="true" />
+                <element signature="e#1048#1049#0" expanded="true" />
+                <element signature="e#1084#1085#0" expanded="true" />
+                <element signature="e#1131#1132#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,6 +120,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Node</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>BNode</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -118,8 +156,18 @@
         <option value="$PROJECT_DIR$/src/trees/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/trees/AVLTree.java" />
         <option value="$PROJECT_DIR$/src/trees/binary/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/trees/B/BTree.java" />
+        <option value="$PROJECT_DIR$/src/trees/b/Node2.java" />
+        <option value="$PROJECT_DIR$/src/trees/b/Btree2.java" />
+        <option value="$PROJECT_DIR$/src/trees/b/Btree.java" />
+        <option value="$PROJECT_DIR$/src/trees/b/Node.java" />
         <option value="$PROJECT_DIR$/src/trees/avl/AVLNode.java" />
         <option value="$PROJECT_DIR$/src/trees/avl/AVLTree.java" />
+        <option value="$PROJECT_DIR$/src/trees/b/BNode.java" />
+        <option value="$PROJECT_DIR$/src/trees/b/Iter.java" />
+        <option value="$PROJECT_DIR$/src/trees/b/BTree.java" />
+        <option value="$PROJECT_DIR$/src/trees/b/Test.java" />
+        <option value="$PROJECT_DIR$/src/trees/b/TestTree.java" />
       </list>
     </option>
   </component>
@@ -159,7 +207,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -173,56 +220,21 @@
               <item name="datastructures" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="datastructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="trees" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="trees" type="462c0819:PsiDirectoryNode" />
-              <item name="avl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="trees" type="462c0819:PsiDirectoryNode" />
-              <item name="binary" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/junit-4.10.jar" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -391,7 +403,10 @@
       <workItem from="1538515337366" duration="4000000" />
       <workItem from="1539113907321" duration="5309000" />
       <workItem from="1539287697784" duration="7169000" />
-      <workItem from="1539717799927" duration="7156000" />
+      <workItem from="1539717799927" duration="7817000" />
+      <workItem from="1539892343443" duration="602000" />
+      <workItem from="1540321683940" duration="4333000" />
+      <workItem from="1540476235697" duration="7707000" />
     </task>
     <task id="LOCAL-00001" summary="Initial setting.">
       <created>1537387111928</created>
@@ -407,11 +422,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537484014244</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Actualización AVL">
+      <created>1539743363215</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539743363215</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37645000" />
+    <option name="totallyTimeSpent" value="50948000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,7 +446,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49676377" weight="0.32781065" />
@@ -439,8 +460,9 @@
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49676377" weight="0.32819906" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" x="1387" y="381" width="263" height="274" id="Project" order="0" sideWeight="0.5704584" visible="true" weight="0.17700455" />
+      <window_info active="true" content_ui="combo" x="1387" y="381" width="263" height="274" id="Project" order="0" sideWeight="0.5704584" visible="true" weight="0.20953101" />
       <window_info anchor="right" id="Database" order="5" weight="0.32928804" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.39898133" />
       <window_info id="Structure" order="1" sideWeight="0.21383648" side_tool="true" weight="0.20196672" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -450,7 +472,6 @@
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32781065" />
       <window_info anchor="right" id="JSF" order="6" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.61734694" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Web" order="6" sideWeight="0.50473934" side_tool="true" weight="0.21359223" />
@@ -468,7 +489,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial setting." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial setting." />
+    <MESSAGE value="Actualización AVL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualización AVL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -599,10 +621,24 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="30" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/trees/avl/AVLNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees/avl/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="95" column="36" lean-forward="true" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/search/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -621,9 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3150">
           <caret line="126" column="35" selection-start-line="126" selection-start-column="35" selection-end-line="126" selection-end-column="35" />
-          <folding>
-            <element signature="method#height#0;class#AVLTree#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -631,12 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -887,17 +914,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/trees/binary/BinaryNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/trees/binary/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-800">
-          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        <state relative-caret-position="775">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
           <folding>
             <element signature="e#1894#1895#0" expanded="true" />
             <element signature="e#1953#1954#0" expanded="true" />
@@ -905,25 +925,136 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees/b/BTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="274" selection-start-line="274" selection-end-line="274" />
+          <folding>
+            <element signature="e#0#22383#0" expanded="true" />
+            <element signature="method#BTreeSet#0;class#BTreeSet#0" />
+            <element signature="method#BTreeSet#1;class#BTreeSet#0" />
+            <element signature="method#clear#0;class#BTreeSet#0" />
+            <element signature="method#contains#0;class#BTreeSet#0" />
+            <element signature="e#2720#2750#1" expanded="true" />
+            <element signature="method#add#0;class#BTreeSet#0" />
+            <element signature="method#remove#0;class#BTreeSet#0" />
+            <element signature="e#4839#4869#1" expanded="true" />
+            <element signature="method#first#0;class#BTreeSet#0" />
+            <element signature="method#last#0;class#BTreeSet#0" />
+            <element signature="method#comparator#0;class#BTreeSet#0" />
+            <element signature="e#7954#7955#0" expanded="true" />
+            <element signature="e#8007#8008#0" expanded="true" />
+            <element signature="method#checkStructure#0;class#BTreeSet#0" />
+            <element signature="class#Iter#0;class#BTreeSet#0" />
+            <element signature="e#21436#21437#0" expanded="true" />
+            <element signature="e#21487#21488#0" expanded="true" />
+            <element signature="e#22027#22028#0" expanded="true" />
+            <element signature="e#22092#22093#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees/b/BNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#576#606#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees/binary/BinaryNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/trees/avl/AVLNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="510">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/trees/avl/AVLTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="95" column="36" lean-forward="true" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
+        <state relative-caret-position="565">
+          <caret line="134" column="51" selection-start-line="134" selection-start-column="51" selection-end-line="134" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees/b/BNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="50" />
           <folding>
-            <element signature="method#height#0;class#AVLTree#0" />
+            <element signature="e#564#594#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees/b/Iter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees/b/BTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3840">
+          <caret line="312" column="35" selection-start-line="312" selection-start-column="35" selection-end-line="312" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2525#2526#0" expanded="true" />
+            <element signature="e#2552#2553#0" expanded="true" />
+            <element signature="e#2737#2767#1" expanded="true" />
+            <element signature="e#4856#4886#1" expanded="true" />
+            <element signature="e#7787#7788#0" expanded="true" />
+            <element signature="e#7820#7821#0" expanded="true" />
+            <element signature="e#7971#7972#0" expanded="true" />
+            <element signature="e#8024#8025#0" expanded="true" />
+            <element signature="e#8104#8105#0" expanded="true" />
+            <element signature="e#8161#8162#0" expanded="true" />
+            <element signature="e#8209#8210#0" expanded="true" />
+            <element signature="e#8266#8267#0" expanded="true" />
+            <element signature="e#8316#8317#0" expanded="true" />
+            <element signature="e#8373#8374#0" expanded="true" />
+            <element signature="e#9530#9531#0" expanded="true" />
+            <element signature="e#9581#9582#0" expanded="true" />
+            <element signature="e#10121#10122#0" expanded="true" />
+            <element signature="e#10186#10187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees/b/TestTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -931,6 +1062,30 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -944,11 +1099,24 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>datastructures</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -968,6 +1136,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>junit-4.10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

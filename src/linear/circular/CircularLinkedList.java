@@ -2,34 +2,34 @@ package linear.circular;
 
 public class CircularLinkedList<E> {
 
-    private Node<E> head;
+    private BNode<E> head;
     private int size = 0;
 
     public void insertAtBeginning(E value) {
-        Node<E> newNode = new Node<E>(value);
+        BNode<E> newBNode = new BNode<E>(value);
         if (head == null) {
-            head = newNode;
+            head = newBNode;
             head.next = head;
         } else {
-            Node<E> temp = head;
-            newNode.next = temp;
-            head = newNode;
+            BNode<E> temp = head;
+            newBNode.next = temp;
+            head = newBNode;
         }
         size++;
     }
 
     public void insertAtTail(E value) {
-        Node<E> newNode = new Node<E>(value);
+        BNode<E> newBNode = new BNode<E>(value);
         if (null == head) {
-            head = newNode;
+            head = newBNode;
         } else {
-            Node<E> temp = head;
+            BNode<E> temp = head;
             while (temp.next != head) {
                 temp = temp.next;
             }
-            temp.next = newNode;
+            temp.next = newBNode;
         }
-        newNode.next = head;
+        newBNode.next = head;
         size++;
     }
 
@@ -37,24 +37,24 @@ public class CircularLinkedList<E> {
         if (position < 0 || position > size) {
             throw new IllegalArgumentException("Position is Invalid");
         }
-        /* Conditions check passed, let's insert the node */
-        Node<E> newNode = new Node<E>(value);
-        Node<E> tempNode = head;
-        Node<E> prevNode = null;
+        /* Conditions check passed, let's insert the BNode */
+        BNode<E> newBNode = new BNode<E>(value);
+        BNode<E> tempBNode = head;
+        BNode<E> prevBNode = null;
         for (int i = 0; i < position; i++) {
-            if (tempNode.next == head) {
+            if (tempBNode.next == head) {
                 break;
             }
-            prevNode = tempNode;
-            tempNode = tempNode.next;
+            prevBNode = tempBNode;
+            tempBNode = tempBNode.next;
         }
-        prevNode.next = newNode;
-        newNode.next = tempNode;
+        prevBNode.next = newBNode;
+        newBNode.next = tempBNode;
         size++;
     }
 
     public void deleteFromBeginning() {
-        Node<E> temp = head;
+        BNode<E> temp = head;
         while (temp.next != head) {
             temp = temp.next;
         }
@@ -67,7 +67,7 @@ public class CircularLinkedList<E> {
         if (position < 0 || position >= size) {
             throw new IllegalArgumentException("Position is Invalid");
         }
-        Node<E> current = head, previous = head;
+        BNode<E> current = head, previous = head;
         for (int i = 0; i < position; i++) {
             if (current.next == head) {
                 break;
@@ -83,19 +83,19 @@ public class CircularLinkedList<E> {
         size--;
     }
 
-    public Node<E> searchByIndex(int index) {
+    public BNode<E> searchByIndex(int index) {
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException("Index is Invalid");
         }
-        Node<E> temp = head;
+        BNode<E> temp = head;
         for (int i = 0; i < index; i++) {
             temp = temp.next;
         }
         return temp;
     }
 
-    public Node<E> searchByValue(E value) {
-        Node<E> temp = head;
+    public BNode<E> searchByValue(E value) {
+        BNode<E> temp = head;
         while (null != temp && temp.item != value) {
             temp = temp.next;
         }
@@ -117,12 +117,12 @@ public class CircularLinkedList<E> {
         if (head == null) {
             System.out.println("List is Empty !!");
         } else {
-            Node<E> temp = head;
+            BNode<E> temp = head;
             while (temp.next != head) {
-                System.out.println("Data at Node = " + temp.item);
+                System.out.println("Data at BNode = " + temp.item);
                 temp = temp.next;
             }
-            System.out.println("Data at Node = " + temp.item);
+            System.out.println("Data at BNode = " + temp.item);
         }
         System.out.println();
     }

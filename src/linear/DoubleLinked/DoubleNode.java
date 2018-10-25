@@ -1,61 +1,61 @@
 package linear.DoubleLinked;
 
-public class DoubleNode {
+public class DoubleBNode {
 
-    private DoubleNode prev;
-    private DoubleNode next;
+    private DoubleBNode prev;
+    private DoubleBNode next;
     private char c;
 
     /**
      * Constructor with no arguments.
      */
-    public DoubleNode(){
+    public DoubleBNode(){
         this( null, '\0', null );
     }
 
     /**
      * Constructor with a character
-     * @param ch is a character for this node.
+     * @param ch is a character for this BNode.
      */
-    public DoubleNode(char ch){
+    public DoubleBNode(char ch){
         this(null, ch, null);
     }
 
     /**
      * Constructor with three arguments
-     * @param p is a pointer to a previous node.
-     * @param ch is a character for this node.
-     * @param n is a pointer to a next node.
+     * @param p is a pointer to a previous BNode.
+     * @param ch is a character for this BNode.
+     * @param n is a pointer to a next BNode.
      */
-    public DoubleNode(DoubleNode p, char ch, DoubleNode n){
+    public DoubleBNode(DoubleBNode p, char ch, DoubleBNode n){
         prev = p;
         next = n;
         c = ch;
     }
 
     /**
-     * @return c a character for this node.
+     * @return c a character for this BNode.
      */
     public char getC(){
         return c;
     }
 
     /**
-     * @return a pointer to the next node or null if none exists
+     * @return a pointer to the next BNode or null if none exists
      */
-    public DoubleNode getNext(){
+    public DoubleBNode getNext(){
         return next;
     }
 
     /**
-     * @return a pointer to the previous node or null if none exists
+     * @return a pointer to the previous BNode or null if none exists
      */
-    public DoubleNode getPrev(){
+    public DoubleBNode getPrev(){
         return prev;
     }
 
     /**
-     * @param ch is assigned to this node
+     * @param ch is assigned to this BNode
      */
     public void setC(char ch){
         c = ch;
@@ -64,14 +64,14 @@ public class DoubleNode {
     /**
      * @param n
      */
-    public void setNext(DoubleNode n){
+    public void setNext(DoubleBNode n){
         next = n;
     }
 
     /**
      * @param p
      */
-    public void setPrev(DoubleNode p){
+    public void setPrev(DoubleBNode p){
         prev = p;
     }
 

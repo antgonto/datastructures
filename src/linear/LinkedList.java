@@ -1,7 +1,7 @@
 package linear;
 
 public class LinkedList {
-    private Node head;
+    private BNode head;
     private int size;
     public LinkedList() {
         this.head = null;
@@ -14,14 +14,14 @@ public class LinkedList {
         return this.size;
     }
     public void insertFirst(Object data) {
-        Node newNode = new Node(data);
-        newNode.next = this.head;
-        this.head = newNode;
+        BNode newBNode = new BNode(data);
+        newBNode.next = this.head;
+        this.head = newBNode;
         this.size++;
     }
-    public Node deleteFirst() {
+    public BNode deleteFirst() {
         if (this.head != null) {
-            Node temp = this.head;
+            BNode temp = this.head;
             this.head = this.head.next;
             this.size--;
             return temp;
@@ -30,14 +30,14 @@ public class LinkedList {
         }
     }
     public void displayList() {
-        Node current = this.head;
+        BNode current = this.head;
         while (current != null) {
             System.out.println(current.getData());
             current = current.getNext();
         }
     }
-    public Node find(String searchValue) {
-        Node current = this.head;
+    public BNode find(String searchValue) {
+        BNode current = this.head;
         while (current != null) {
             if (current.getData().equals(searchValue)) {
                 return current;
@@ -47,9 +47,9 @@ public class LinkedList {
         }
         return null;
     }
-    public Node delete(String searchValue) {
-        Node current = this.head;
-        Node previous = this.head;
+    public BNode delete(String searchValue) {
+        BNode current = this.head;
+        BNode previous = this.head;
 
         while (current != null) {
             if (current.getData().equals(searchValue)) {

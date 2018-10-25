@@ -1,6 +1,6 @@
 package linear;
 
-import linear.simple.Node;
+import linear.simple.BNode;
 
 public class QueueArray {
         private int maxSize;

@@ -2,8 +2,8 @@ package linear.DoubleLinked;
 
 public class DoublyLinkedList {
 
-    private DoubleNode head;
-    private DoubleNode tail;
+    private DoubleBNode head;
+    private DoubleBNode tail;
 
     /**
      * Constructs a new DoublyLinkedList object with head and tail as null.
@@ -22,11 +22,11 @@ public class DoublyLinkedList {
     }
 
     /**
-     * Add a character node containing the character c to the end of the linked list. This routine does not require a search.
+     * Add a character BNode containing the character c to the end of the linked list. This routine does not require a search.
      * @param c a single character
      */
     public void addCharAtEnd(char c){
-        DoubleNode n = new DoubleNode(tail, c, null);
+        DoubleBNode n = new DoubleBNode(tail, c, null);
         if(isEmpty()){
             head = tail = n;
         }else{
@@ -36,11 +36,11 @@ public class DoublyLinkedList {
     }
 
     /**
-     * Add a character node containing the character c to the front of the linked list. No search is required.
+     * Add a character BNode containing the character c to the front of the linked list. No search is required.
      * @param c a single character
      */
     public void addCharAtFront(char c){
-        DoubleNode n = new DoubleNode(null, c, head);
+        DoubleBNode n = new DoubleBNode(null, c, head);
         if(isEmpty()){
             head = tail = n;
         }else{
@@ -86,11 +86,11 @@ public class DoublyLinkedList {
     }
 
     /**
-     * Counts the number of nodes in the list. We are not maintaining a counter so a search is required.
-     * @return the number of nodes in the doubly linked list between head and tail inclusive
+     * Counts the number of BNodes in the list. We are not maintaining a counter so a search is required.
+     * @return the number of BNodes in the doubly linked list between head and tail inclusive
      */
-    public int countNodes(){
-        DoubleNode cn = head;
+    public int countBNodes(){
+        DoubleBNode cn = head;
         int count = 0;
         while(cn != null){
             count++;
@@ -105,7 +105,7 @@ public class DoublyLinkedList {
      * @return true if a deletion occurred and false otherwise
      */
     public boolean deleteChar(char c){
-        DoubleNode cn = head;
+        DoubleBNode cn = head;
         while(cn.getC() != c){
             cn = cn.getNext();
         }
@@ -131,12 +131,12 @@ public class DoublyLinkedList {
     }
 
     /**
-     * Returns the list as a String. The class DoubleNode has a toString that will be called from this toString. The String returned must be presented clearly. Null pointers must be represented differently than non-null pointers.
+     * Returns the list as a String. The class DoubleBNode has a toString that will be called from this toString. The String returned must be presented clearly. Null pointers must be represented differently than non-null pointers.
      * @see java.lang.Object#toString()
      * @return a String containing the characters in the list
      */
     public String toString(){
-        DoubleNode cn = head;
+        DoubleBNode cn = head;
         String str = "";
         while(cn != null){
             str += cn.getC();
@@ -151,8 +151,8 @@ public class DoublyLinkedList {
      *Reverse the list. a -> b -> c becomes c -> b -> a
      */
     public void reverse(){
-        DoubleNode cn = head;
-        DoubleNode tmp = null;
+        DoubleBNode cn = head;
+        DoubleBNode tmp = null;
         while(cn != null){
             tmp = cn.getNext();
             cn.setNext(cn.getPrev());
@@ -207,7 +207,7 @@ public class DoublyLinkedList {
         list.addCharAtFront('H');
         System.out.println(list);
 
-        System.out.println(list.countNodes());
+        System.out.println(list.countBNodes());
 
         System.out.println("Popping everything");
         while(!list.isEmpty()){
@@ -224,7 +224,7 @@ public class DoublyLinkedList {
         while(!list.isEmpty()){
             System.out.println(list.removeCharAtEnd());
         }
-        System.out.println(list.countNodes());
+        System.out.println(list.countBNodes());
 
         list.addCharAtEnd('o');
         list.addCharAtEnd('l');

@@ -1,7 +1,7 @@
 package linear;
 
 import linear.simple.LinkedList;
-import linear.simple.Node;
+import linear.simple.BNode;
 
 public class StackList<T> {
     private LinkedList stackList = new LinkedList();
@@ -10,11 +10,11 @@ public class StackList<T> {
         this.stackList.insertFirst(newElement);
     }
 
-    public Node<T> pop() {
+    public BNode<T> pop() {
         return this.stackList.deleteFirst();
     }
 
-    public Node<T> peek() {
+    public BNode<T> peek() {
         return this.stackList.getHead();
     }
 
