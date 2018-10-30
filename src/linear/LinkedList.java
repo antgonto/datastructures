@@ -1,7 +1,7 @@
 package linear;
 
 public class LinkedList {
-    private BNode head;
+    private Node head;
     private int size;
     public LinkedList() {
         this.head = null;
@@ -14,14 +14,14 @@ public class LinkedList {
         return this.size;
     }
     public void insertFirst(Object data) {
-        BNode newBNode = new BNode(data);
+        Node newBNode = new Node(data);
         newBNode.next = this.head;
         this.head = newBNode;
         this.size++;
     }
-    public BNode deleteFirst() {
+    public Node deleteFirst() {
         if (this.head != null) {
-            BNode temp = this.head;
+            Node temp = this.head;
             this.head = this.head.next;
             this.size--;
             return temp;
@@ -30,14 +30,14 @@ public class LinkedList {
         }
     }
     public void displayList() {
-        BNode current = this.head;
+        Node current = this.head;
         while (current != null) {
             System.out.println(current.getData());
             current = current.getNext();
         }
     }
-    public BNode find(String searchValue) {
-        BNode current = this.head;
+    public Node find(String searchValue) {
+        Node current = this.head;
         while (current != null) {
             if (current.getData().equals(searchValue)) {
                 return current;
@@ -47,9 +47,9 @@ public class LinkedList {
         }
         return null;
     }
-    public BNode delete(String searchValue) {
-        BNode current = this.head;
-        BNode previous = this.head;
+    public Node delete(String searchValue) {
+        Node current = this.head;
+        Node previous = this.head;
 
         while (current != null) {
             if (current.getData().equals(searchValue)) {
@@ -84,5 +84,4 @@ public class LinkedList {
         System.out.println("Dato borrado: " + lList.delete("Dato5").getData());
         lList.displayList();
     }
-
 }

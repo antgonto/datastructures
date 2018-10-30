@@ -2,8 +2,8 @@ package linear.DoubleLinked;
 
 public class DoublyLinkedList {
 
-    private DoubleBNode head;
-    private DoubleBNode tail;
+    private DoubleNode head;
+    private DoubleNode tail;
 
     /**
      * Constructs a new DoublyLinkedList object with head and tail as null.
@@ -26,7 +26,7 @@ public class DoublyLinkedList {
      * @param c a single character
      */
     public void addCharAtEnd(char c){
-        DoubleBNode n = new DoubleBNode(tail, c, null);
+        DoubleNode n = new DoubleNode(tail, c, null);
         if(isEmpty()){
             head = tail = n;
         }else{
@@ -40,7 +40,7 @@ public class DoublyLinkedList {
      * @param c a single character
      */
     public void addCharAtFront(char c){
-        DoubleBNode n = new DoubleBNode(null, c, head);
+        DoubleNode n = new DoubleNode(null, c, head);
         if(isEmpty()){
             head = tail = n;
         }else{
@@ -90,7 +90,7 @@ public class DoublyLinkedList {
      * @return the number of BNodes in the doubly linked list between head and tail inclusive
      */
     public int countBNodes(){
-        DoubleBNode cn = head;
+        DoubleNode cn = head;
         int count = 0;
         while(cn != null){
             count++;
@@ -105,7 +105,7 @@ public class DoublyLinkedList {
      * @return true if a deletion occurred and false otherwise
      */
     public boolean deleteChar(char c){
-        DoubleBNode cn = head;
+        DoubleNode cn = head;
         while(cn.getC() != c){
             cn = cn.getNext();
         }
@@ -136,7 +136,7 @@ public class DoublyLinkedList {
      * @return a String containing the characters in the list
      */
     public String toString(){
-        DoubleBNode cn = head;
+        DoubleNode cn = head;
         String str = "";
         while(cn != null){
             str += cn.getC();
@@ -151,8 +151,8 @@ public class DoublyLinkedList {
      *Reverse the list. a -> b -> c becomes c -> b -> a
      */
     public void reverse(){
-        DoubleBNode cn = head;
-        DoubleBNode tmp = null;
+        DoubleNode cn = head;
+        DoubleNode tmp = null;
         while(cn != null){
             tmp = cn.getNext();
             cn.setNext(cn.getPrev());

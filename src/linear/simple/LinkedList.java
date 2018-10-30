@@ -1,7 +1,7 @@
 package linear.simple;
 
 public class LinkedList<T>{
-    private BNode<T> head;
+    private Node<T> head;
     private int size;
     public LinkedList() {
         this.head = null;
@@ -16,14 +16,14 @@ public class LinkedList<T>{
     }
 
     public void insertFirst(Object data) {
-        BNode<T> newBNode = new BNode(data);
+        Node<T> newBNode = new Node(data);
         newBNode.next = this.head;
         this.head = newBNode;
         this.size++;
     }
-    public BNode<T> deleteFirst() {
+    public Node<T> deleteFirst() {
         if (this.head != null) {
-            BNode temp = this.head;
+            Node temp = this.head;
             this.head = this.head.next;
             this.size--;
             return temp;
@@ -32,19 +32,19 @@ public class LinkedList<T>{
         }
     }
 
-    public BNode<T> getHead(){
+    public Node<T> getHead(){
         return this.head;
     }
 
     public void displayList() {
-        BNode current = this.head;
+        Node current = this.head;
         while (current != null) {
             System.out.println(current.getData());
             current = current.getNext();
         }
     }
-    public BNode find(String searchValue) {
-        BNode current = this.head;
+    public Node find(String searchValue) {
+        Node current = this.head;
         while (current != null) {
             if (current.getData().equals(searchValue)) {
                 return current;
@@ -54,9 +54,9 @@ public class LinkedList<T>{
         }
         return null;
     }
-    public BNode delete(String searchValue) {
-        BNode current = this.head;
-        BNode previous = this.head;
+    public Node delete(String searchValue) {
+        Node current = this.head;
+        Node previous = this.head;
 
         while (current != null) {
             if (current.getData().equals(searchValue)) {

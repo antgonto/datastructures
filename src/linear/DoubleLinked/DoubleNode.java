@@ -1,15 +1,15 @@
 package linear.DoubleLinked;
 
-public class DoubleBNode {
+public class DoubleNode {
 
-    private DoubleBNode prev;
-    private DoubleBNode next;
+    private DoubleNode prev;
+    private DoubleNode next;
     private char c;
 
     /**
      * Constructor with no arguments.
      */
-    public DoubleBNode(){
+    public DoubleNode(){
         this( null, '\0', null );
     }
 
@@ -17,7 +17,7 @@ public class DoubleBNode {
      * Constructor with a character
      * @param ch is a character for this BNode.
      */
-    public DoubleBNode(char ch){
+    public DoubleNode(char ch){
         this(null, ch, null);
     }
 
@@ -27,7 +27,7 @@ public class DoubleBNode {
      * @param ch is a character for this BNode.
      * @param n is a pointer to a next BNode.
      */
-    public DoubleBNode(DoubleBNode p, char ch, DoubleBNode n){
+    public DoubleNode(DoubleNode p, char ch, DoubleNode n){
         prev = p;
         next = n;
         c = ch;
@@ -43,14 +43,14 @@ public class DoubleBNode {
     /**
      * @return a pointer to the next BNode or null if none exists
      */
-    public DoubleBNode getNext(){
+    public DoubleNode getNext(){
         return next;
     }
 
     /**
      * @return a pointer to the previous BNode or null if none exists
      */
-    public DoubleBNode getPrev(){
+    public DoubleNode getPrev(){
         return prev;
     }
 
@@ -64,14 +64,14 @@ public class DoubleBNode {
     /**
      * @param n
      */
-    public void setNext(DoubleBNode n){
+    public void setNext(DoubleNode n){
         next = n;
     }
 
     /**
      * @param p
      */
-    public void setPrev(DoubleBNode p){
+    public void setPrev(DoubleNode p){
         prev = p;
     }
 

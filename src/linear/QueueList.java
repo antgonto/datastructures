@@ -1,14 +1,14 @@
 package linear;
 
 
-import linear.simple.BNode;
+import linear.simple.Node;
 
 public class QueueList<T> {
-        private BNode<T> head = null;
-        private BNode<T> tail = null;
+        private Node<T> head = null;
+        private Node<T> tail = null;
 
         public void enqueue(T item) {
-            BNode newBNode = new BNode(item);
+            Node newBNode = new Node(item);
             if (isEmpty()) {
                 head = newBNode;
             } else {
@@ -38,7 +38,7 @@ public class QueueList<T> {
 
         public int size() {
             int count = 0;
-            for (BNode BNode = head; BNode != null; BNode = BNode.next) {
+            for (Node node = head; node != null; node = node.next) {
                 count++;
             }
             return count;

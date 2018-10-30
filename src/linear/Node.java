@@ -1,10 +1,10 @@
 package linear;
 
-public class BNode {
+public class Node {
     private Object data;
-    public BNode next;
+    public Node next;
 
-    public BNode(Object data) {
+    public Node(Object data) {
         this.next = null;
         this.data = data;
     }
@@ -16,11 +16,11 @@ public class BNode {
     public void setData(Object data) {
         this.data = data;
     }
-    public BNode getNext() {
+    public Node getNext() {
         return this.next;
     }
 
-    public void setNext(BNode BNode) {
+    public void setNext(Node BNode) {
         this.next = BNode;
     }
 }

@@ -1,20 +1,20 @@
 package linear;
 
 import linear.simple.LinkedList;
-import linear.simple.BNode;
+import linear.simple.Node;
 
 public class StackList<T> {
-    private LinkedList stackList = new LinkedList();
+    private LinkedList<T> stackList = new LinkedList();
 
     public void push(T newElement) {
         this.stackList.insertFirst(newElement);
     }
 
-    public BNode<T> pop() {
+    public Node<T> pop() {
         return this.stackList.deleteFirst();
     }
 
-    public BNode<T> peek() {
+    public Node<T> peek() {
         return this.stackList.getHead();
     }
 

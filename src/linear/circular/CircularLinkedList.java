@@ -2,28 +2,28 @@ package linear.circular;
 
 public class CircularLinkedList<E> {
 
-    private BNode<E> head;
+    private Node<E> head;
     private int size = 0;
 
     public void insertAtBeginning(E value) {
-        BNode<E> newBNode = new BNode<E>(value);
+        Node<E> newNode = new Node<E>(value);
         if (head == null) {
-            head = newBNode;
+            head = newNode;
             head.next = head;
         } else {
-            BNode<E> temp = head;
-            newBNode.next = temp;
-            head = newBNode;
+            Node<E> temp = head;
+            newNode.next = temp;
+            head = newNode;
         }
         size++;
     }
 
     public void insertAtTail(E value) {
-        BNode<E> newBNode = new BNode<E>(value);
+        Node<E> newBNode = new Node<E>(value);
         if (null == head) {
             head = newBNode;
         } else {
-            BNode<E> temp = head;
+            Node<E> temp = head;
             while (temp.next != head) {
                 temp = temp.next;
             }
@@ -38,9 +38,9 @@ public class CircularLinkedList<E> {
             throw new IllegalArgumentException("Position is Invalid");
         }
         /* Conditions check passed, let's insert the BNode */
-        BNode<E> newBNode = new BNode<E>(value);
-        BNode<E> tempBNode = head;
-        BNode<E> prevBNode = null;
+        Node<E> newBNode = new Node<E>(value);
+        Node<E> tempBNode = head;
+        Node<E> prevBNode = null;
         for (int i = 0; i < position; i++) {
             if (tempBNode.next == head) {
                 break;
@@ -54,7 +54,7 @@ public class CircularLinkedList<E> {
     }
 
     public void deleteFromBeginning() {
-        BNode<E> temp = head;
+        Node<E> temp = head;
         while (temp.next != head) {
             temp = temp.next;
         }
@@ -67,7 +67,7 @@ public class CircularLinkedList<E> {
         if (position < 0 || position >= size) {
             throw new IllegalArgumentException("Position is Invalid");
         }
-        BNode<E> current = head, previous = head;
+        Node<E> current = head, previous = head;
         for (int i = 0; i < position; i++) {
             if (current.next == head) {
                 break;
@@ -83,19 +83,19 @@ public class CircularLinkedList<E> {
         size--;
     }
 
-    public BNode<E> searchByIndex(int index) {
+    public Node<E> searchByIndex(int index) {
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException("Index is Invalid");
         }
-        BNode<E> temp = head;
+        Node<E> temp = head;
         for (int i = 0; i < index; i++) {
             temp = temp.next;
         }
         return temp;
     }
 
-    public BNode<E> searchByValue(E value) {
-        BNode<E> temp = head;
+    public Node<E> searchByValue(E value) {
+        Node<E> temp = head;
         while (null != temp && temp.item != value) {
             temp = temp.next;
         }
@@ -117,7 +117,7 @@ public class CircularLinkedList<E> {
         if (head == null) {
             System.out.println("List is Empty !!");
         } else {
-            BNode<E> temp = head;
+            Node<E> temp = head;
             while (temp.next != head) {
                 System.out.println("Data at BNode = " + temp.item);
                 temp = temp.next;
