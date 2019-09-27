@@ -1,0 +1,6 @@
+[submodule "testing2"]
+	path = testing2
+	url = https://github.com/antgonto/testing2
+[submodule "vaframework"]
+	path = vaframework
+	url = https://github.com/antgonto/vaframework
