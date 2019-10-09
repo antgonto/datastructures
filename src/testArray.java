@@ -9,7 +9,7 @@ public class testArray {
         int[][] matriz = new int[5][4];
         matriz[0][0] = 3343;
         matriz[0][1] = 3554;
-
+        System.out.println(matriz[0][3]);
 
     }
 }

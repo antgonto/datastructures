@@ -1,7 +1,7 @@
 package sort;
 
 public class SelectionSort {
-    public static int[] doSelectionSort(int[] arr){
+    public int[] doSelectionSort(int[] arr){
 
         for (int i = 0; i < arr.length - 1; i++){
             int index = i;
@@ -16,9 +16,9 @@ public class SelectionSort {
     }
 
     public static void main(String a[]){
-
-        int[] arr1 = {2,34,10,7};
-        int[] arr2 = doSelectionSort(arr1);
+        SelectionSort ss = new SelectionSort();
+        int[] arr1 = {1, 2, 3, 9, 7, 13, 6, 5, 12, 10};
+        int[] arr2 = ss.doSelectionSort(arr1);
         for(int i:arr2){
             System.out.print(i);
             System.out.print(", ");

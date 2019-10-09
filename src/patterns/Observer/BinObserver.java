@@ -1,4 +1,4 @@
-package patterns.observer;
+package patterns.Observer;
 
 public class BinObserver extends Observer {
     public BinObserver(Sujeto subject) {

@@ -10,9 +10,11 @@ public class LinkedList {
     public boolean isEmpty() {
         return this.head == null;
     }
+
     public int size() {
         return this.size;
     }
+
     public void insertFirst(Object data) {
         Node newBNode = new Node(data);
         newBNode.next = this.head;

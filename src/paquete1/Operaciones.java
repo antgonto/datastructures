@@ -20,8 +20,10 @@ public class Operaciones {
     public int restar(){return a - b;}
 
     private class Otra{
-
+        Operaciones oper = new Operaciones(8, 9);
     }
+
+
 
 
 }

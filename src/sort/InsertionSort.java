@@ -15,9 +15,30 @@ public class InsertionSort {
             printArray(arr, inicio, i + 1);
         }
     }
+/*
+    public static int[] doInsertionSort(int[] input){
+        int temp;
+        for (int i = 1; i < input.length; i++) {
+            //for(int j = i ; j > 0 ; j--){
+                int j = i;
+                while(j>0 && input[j-1] > input[j]){
+
+                        temp = input[j];
+                        input[j] = input[j-1];
+                        input[j-1] = temp;
+                        printArray(input, j-1, j);
+
+                   j--;
+            }
+        }
+        return input;
+    }
+ */
+
 
     public static int[] doInsertionSort(int[] input){
         int temp;
+        int contador = 0;
         for (int i = 1; i < input.length; i++) {
             for(int j = i ; j > 0 ; j--){
                 if(input[j-1] > input[j]){
@@ -26,9 +47,11 @@ public class InsertionSort {
                     input[j-1] = temp;
                     printArray(input, j-1, j);
                 }
+                contador++;
             }
 
         }
+        System.out.println(contador);
         return input;
     }
 

@@ -3,7 +3,6 @@ package sort;
         private int[] numbers;
         private int number;
         public void sort(int[] values) {
-            // check for empty or null array
             if (values ==null || values.length==0){
                 return;
             }
@@ -37,5 +36,4 @@ package sort;
             numbers[i] = numbers[j];
             numbers[j] = temp;
         }
-    }
 }

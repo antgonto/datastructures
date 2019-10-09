@@ -3,7 +3,7 @@ package linear;
 public class StackArray {
         private int maxSize;
         private Object[] stackArray;
-        private int top = 0;
+        private int top = -1;
 
         public StackArray(int maxSize){
             this.maxSize = maxSize;
@@ -23,11 +23,12 @@ public class StackArray {
         }
 
         public Object peek() {
+
             return this.stackArray[top];
         }
 
         public boolean isEmpty(){
-            return top == 0;
+            return top == -1;
         }
 
         public static void main(String[] args){

@@ -28,11 +28,17 @@ public class Rectangle extends Rectangle2D.Double implements Dibujo{
         this.y = y;
     }
 
-    @Override
+
+
     public void draw(Graphics2D graphics) {
         graphics.setColor(Color.RED);
         graphics.fill(this);
         graphics.setColor(Color.BLUE);
         graphics.draw(this);
+
     }
+
+
+
 }
+

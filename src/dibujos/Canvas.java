@@ -25,6 +25,7 @@ public class Canvas extends JComponent {
         r.setY(100);
         r.setHeight(20);
         r.setWidth(60);
+        System.out.println(r.getY());
 
 
         Circle c = new Circle();

@@ -1,4 +1,4 @@
-package patterns.observer;
+package patterns.Observer;
 
 public class OctObserver extends Observer {
     public OctObserver(Sujeto sujeto) {

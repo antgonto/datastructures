@@ -1,4 +1,4 @@
-package patterns.observer;
+package patterns.Observer;
 
 import java.util.Scanner;
 

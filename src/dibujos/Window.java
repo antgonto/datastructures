@@ -19,7 +19,23 @@ public class Window extends JFrame {
         pack();
     }
 
+    int prueba(int intento, int solucion) {
+        int resultado = 0;
+        if (intento > solucion) {
+            resultado = +2;
+            resultado *= 5;
+        }else {
+            if (intento < solucion)
+                resultado = -1;
+            else
+                resultado = 0; // Coincidir
+        }
+        return resultado;
+    }
+
     public static void main(String[] args){
+        Window win = new Window();
+        win.prueba(15, 10);
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {

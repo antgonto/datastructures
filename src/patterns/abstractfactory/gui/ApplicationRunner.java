@@ -3,14 +3,13 @@ package patterns.abstractfactory.gui;
 public class ApplicationRunner {
     public static void main(String[] args) {
 
-        new Application(createOsSpecificFactory());
+        GUIFactory factory = GUIFactory.createOsSpecificFactory("osx");
+        Button button = factory.createButton();
+        Label label = factory.createLabel();
+        button.paint();
+        label.paint();
+        //Application app = new Application(factory);
     }
 
-    public static GUIFactory createOsSpecificFactory() {
-        String osname = System.getProperty("os.name").toLowerCase();
-        if(osname != null && osname.contains("windows"))
-            return new WinFactory();
-        else
-            return new OSXFactory();
-    }
+
 }

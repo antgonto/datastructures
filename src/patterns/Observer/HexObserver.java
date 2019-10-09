@@ -1,4 +1,4 @@
-package patterns.observer;
+package patterns.Observer;
 
 public class HexObserver extends Observer {
     public HexObserver(Sujeto subject) {

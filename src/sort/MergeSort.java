@@ -34,7 +34,6 @@ public class MergeSort {
         for (int i = primero; i <= ultimo; i++) {
             auxiliar[i] = numeros[i];
         }
-
         int i = primero;
         int j = mitad + 1;
         int k = primero;

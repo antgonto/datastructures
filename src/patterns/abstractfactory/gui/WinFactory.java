@@ -1,6 +1,6 @@
 package patterns.abstractfactory.gui;
 
-public class WinFactory implements GUIFactory {
+public class WinFactory extends GUIFactory {
     public Button createButton() {
         return new WinButton();
     }

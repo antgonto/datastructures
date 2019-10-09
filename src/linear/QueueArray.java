@@ -15,9 +15,6 @@ public class QueueArray {
         }
 
         public void enqueue(Object element) {
-
-
-            System.out.println("Front: " + (this.front + 1) % this.maxSize);
             this.queueArray[this.front] = element;
             this.front = (this.front + 1) % this.maxSize;
             this.nItems++;

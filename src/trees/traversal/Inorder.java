@@ -24,9 +24,7 @@ public class Inorder {
         }
 
         private void inOrder(TreeNode node) {
-            if (node == null) {
-                return;
-            }
+            if (node == null) return;
 
             inOrder(node.left);
             System.out.printf("%s ", node.data);
